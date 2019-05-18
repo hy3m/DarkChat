@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dark Chat</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<string name="menu_logout">Log out</string>
+	<string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+</resources>
