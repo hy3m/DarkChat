@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "669880571236",
+    "firebase_url": "https://dark-chat-c351c.firebaseio.com",
+    "project_id": "dark-chat-c351c",
+    "storage_bucket": "dark-chat-c351c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669880571236:android:ade7c63a35792267",
+        "android_client_info": {
+          "package_name": "com.dark.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669880571236-9j0t7egltpadetc1rfmj3oeachem4ccg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8fl6BLdSlw7ea5tkYMrM1b71rMHFm4n8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
