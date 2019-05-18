@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:orientation="vertical"
+	android:background="#6C120C"
+	tools:context="com.dark.chat.Email"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:background="@drawable/chat_message_background">
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Dark Chat"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:id="@+id/textView3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Exploring The Hidden Chat"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="Email :"
+		android:textStyle="bold"
+		android:layout_marginTop="10dp"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/field_email"
+		android:background="@drawable/edit_teks"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="3dp"
+		android:layout_marginRight="3dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="Password :"
+		android:textStyle="bold"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:id="@+id/field_password"
+		android:layout_marginBottom="10dp"
+		android:background="@drawable/edit_teks"
+		android:layout_marginLeft="3dp"
+		android:layout_marginRight="3dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Daftar"
+		android:id="@+id/button_sign_up"
+		android:background="@drawable/button_style3"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Petunjuk"
+		android:id="@+id/button_petunjuk"
+		android:background="@drawable/button_style3"
+		android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
+
