@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_normal"
+            android:icon="@drawable/ldpi"
+            android:title="Chat Normal" />
+        <item
+            android:id="@+id/nav_hacker"
+            android:icon="@drawable/ldpi"
+            android:title="Chat Hacker" />
+
+        <item
+            android:id="@+id/nav_misi"
+            android:icon="@drawable/ldpi"
+            android:title="Tutorial" />
+		
+		 <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ldpi"
+            android:title="Member" />
+		
+		<item
+            android:id="@+id/nav_mission"
+            android:icon="@drawable/ldpi"
+            android:title="Mission" />
+    </group>
+
+</menu>
